@@ -32,12 +32,12 @@ public class ExibeQuadro {
 		    BufferedImage image;
 
 		    capture.read(imageMat); //Captura o quadro
-		    image = this.MatToBufferedImage(imageMat); //Converte para imageBuffer
+--		    image = this.MatToBufferedImage(imageMat); //Converte para imageBuffer
 
 		    while(capture.isOpened()){
 		        Icon icon = new ImageIcon(image);
-		        this.TelaImagem.setIcon(icon);
-		        this.TelaImagem.repaint();
+	--	        this.TelaImagem.setIcon(icon);
+	--	        this.TelaImagem.repaint();
 
 		        try {
 		            Thread.sleep(150);
