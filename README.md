@@ -1,8 +1,8 @@
 # OpenVision
 > OpenVision is an embedded hardware and software set that is able to identify the entry and exit of people in a build.
 
-[![][version]]
-[![][development]]
+[![Version][version]][v-url]
+[![Development][development]][dev-url]
 
 OpenVision is the open source and free system that is able to control the access to your build that could be your company or your school, and save this datas of image and frequency online for query. It's the new way to control the entry of students, visitors or functionaries in a public space and give to you and all of the people in that space more security.
 
@@ -76,4 +76,6 @@ Distributed under the GNU license. See ``LICENSE`` for more information.
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
 [version]: https://img.shields.io/badge/version-0.0.1-red
+[v-url]: https://www.computerhope.com/jargon/v/version.htm
+[dev-url]: http://programae.herokuapp.com/static/construction.gif
 [development]: https://img.shields.io/badge/state-development-important
