@@ -1,9 +1,8 @@
 # OpenVision - recognition system that no money can buy
 > OpenVision is an embedded hardware and software set that is able to identify the entry and exit of people in a build.
 
-[![Version][npm-image]][0.1 - β]
-[![Build Status][travis-image]][under development]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![][version]]
+[![][development]]
 
 OpenVision is the open source and free system that is able to control the access to your build that could be your company or your school, and save this datas of image and frequency online for query. It's the new way to control the entry of students, visitors or functionaries in a public space and give to you and all of the people in that space more security.
 
@@ -55,11 +54,11 @@ npm test
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Wanghley – [@wanghley](https://instagram.com/wanghley) – wanghleys@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the GNU license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/Wanghley/OpenVision](https://github.com/Wanghley/OpenVision)
 
 ## Contributing
 
@@ -76,3 +75,5 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
+[version]: https://img.shields.io/badge/version-0.0.1-red
+[development]: https://img.shields.io/badge/state-development-important
