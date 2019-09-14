@@ -1,4 +1,4 @@
-# OpenVision - recognition system that no money can buy
+# OpenVision
 > OpenVision is an embedded hardware and software set that is able to identify the entry and exit of people in a build.
 
 [![][version]]
