@@ -29,28 +29,16 @@ A few motivating and useful examples of how your product can be used. Spice this
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
+If you want to help in the development of this project you'll need the arduino IDE and Python/Java Knowledge
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-For python development
+For python development install:
 ```
 pip3 install pyserial opencv-python numpy
 ```
 
 ## Release History
-
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
 * 0.0.1
-    * Work in progress
+    * Work in progress - unstable mainframe
 
 ## Meta
 
