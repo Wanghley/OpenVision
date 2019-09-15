@@ -1,4 +1,4 @@
-# OpenVision
+# OpenVision ![](static/logo-ico.png)
 > OpenVision is an embedded hardware and software set that is able to identify the entry and exit of people in a build.
 
 [![Version][version]][v-url]
@@ -6,7 +6,7 @@
 
 OpenVision is the open source and free system that is able to control the access to your build that could be your company or your school, and save this datas of image and frequency online for query. It's the new way to control the entry of students, visitors or functionaries in a public space and give to you and all of the people in that space more security.
 
-![](header.png)
+![](null)
 
 ## Installation
 
