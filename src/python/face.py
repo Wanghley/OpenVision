@@ -1,5 +1,10 @@
-#import all the required modules
+# AUTHOR: Wanghley Soares Martins
+# Based in the https://cdn.instructables.com/ORIG/FYD/LHQ7/JLWKQJXX/FYDLHQ7JLWKQJXX.py code
+# OpenSource Software
+# Be free to use and distribuite, but remember to give recognition to the author 
 
+
+#import all the required modules
 import numpy as np
 import serial
 import time
@@ -7,7 +12,6 @@ import sys
 import cv2
 
 #sys.path.append('/usr/local/lib/python2.7/site-packages')
-
 #Setup Communication path for arduino (In place of 'COM5' (windows) or ''/dev/tty.usbmodemxxx' (mac) put the port to which your arduino is connected)
 arduino = serial.Serial(port='/dev/ttyUSB0', baudrate=9600)
 time.sleep(2)
@@ -19,9 +23,9 @@ face_cascade = cv2.CascadeClassifier('haarcascade frontalface.xml')
 #To capture the video stream from webcam.
 cap = cv2.VideoCapture(0)
 print("Getting camera image...")
+
 #Read the captured image, convert it to Gray image and find faces
 while 1:
-
     ret, img = cap.read()
     img = cv2.flip(img, 1)
     cv2.namedWindow('img', cv2.WINDOW_NORMAL)
