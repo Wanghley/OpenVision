@@ -23,6 +23,7 @@ print("Getting camera image...")
 while 1:
 
     ret, img = cap.read()
+    img = cv2.flip(img, 1)
     cv2.namedWindow('img', cv2.WINDOW_NORMAL)
     #cv2.resizeWindow('img', 500,500)
     cv2.line(img,(500,250),(0,250),(0,255,0),1)
@@ -48,6 +49,7 @@ while 1:
 # Center of roi (Rectangle)
         xx = int((x+(x+h)/2))
         yy = int((y+(y+w)/2))
+        xx = xx
         print (xx)
         print (yy)
         center = (xx,yy)
@@ -57,6 +59,7 @@ while 1:
         data = "X{0:d}Y{1:d}Z".format(xx, yy)
         print ("output = '" +data+ "'")
         arduino.write(data.encode())
+        ##time.sleep(0.5)
 
 #Display the stream.
     cv2.imshow('img',img)
