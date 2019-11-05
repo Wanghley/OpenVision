@@ -13,8 +13,8 @@ import cv2
 
 #sys.path.append('/usr/local/lib/python2.7/site-packages')
 #Setup Communication path for arduino (In place of 'COM5' (windows) or ''/dev/tty.usbmodemxxx' (mac) put the port to which your arduino is connected)
-#arduino = serial.Serial(port='/dev/ttyUSB0', baudrate=9600)
-#time.sleep(2)
+arduino = serial.Serial(port='/dev/ttyUSB0', baudrate=9600)
+time.sleep(2)
 print("Connected to Arduino...")
 
 #importing the Haarcascade for face detection
@@ -27,7 +27,7 @@ print("Getting camera image...")
 #Read the captured image, convert it to Gray image and find faces
 while 1:
     ret, img = cap.read()
-    img = cv2.flip(img, 1)
+    #img = cv2.flip(img, 0)
     cv2.namedWindow('OpenVision v0.0.1', cv2.WINDOW_NORMAL)
     #cv2.resizeWindow('img', 500,500)
     cv2.line(img,(500,250),(0,250),(0,255,0),1)
@@ -62,8 +62,8 @@ while 1:
         print("Center of Rectangle is :", center)
         data = "X{0:d}Y{1:d}Z".format(xx, yy)
         print ("output = '" +data+ "'")
-        ##arduino.write(data.encode())
-        ##time.sleep(0.5)
+        arduino.write(data.encode())
+        time.sleep(0.5)
 
 #Display the stream.
     cv2.imshow('OpenVision v0.0.1',img)
